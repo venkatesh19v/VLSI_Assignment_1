@@ -10,7 +10,7 @@ initial read_en = 0; //initializing read enable to 0
 initial write_en = 0; //initializing write enable to 0
 
 initial begin
-  
+  //checking the git push
   address=0; //address setting to zero
   #15;
   address = 15; // Write to register 15
